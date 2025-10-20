@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.LevelUpGamer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Fondo general -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <!-- Colores de texto -->
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textColorHint">@color/colorTextSecondary</item>
+
+        <!-- Estilo de botones -->
+        <item name="android:buttonStyle">@style/NeonButton</item>
+
+        <!-- Estilo de ActionBar -->
+        <item name="android:actionBarStyle">@style/NeonActionBar</item>
+    </style>
+
+    <!-- Estilo personalizado para botones -->
+    <style name="NeonButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- Estilo del ActionBar -->
+    <style name="NeonActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorCard</item>
+        <item name="android:titleTextStyle">@style/NeonActionBarTitle</item>
+    </style>
+
+    <!-- Estilo del texto en ActionBar -->
+    <style name="NeonActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

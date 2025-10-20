@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_gamepad"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="24dp"
+            android:text="   Crear Cuenta   "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:hint="Nombre completo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:hint="Correo electrónico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:hint="Contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/txtConfirmar"
+            android:hint="Confirmar contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:hintTextColor="#BBBBBB"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:text="Registrar Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnVolverLogin"
+            android:text="Volver al Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333333"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

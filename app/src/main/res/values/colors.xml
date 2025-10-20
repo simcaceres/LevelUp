@@ -1,0 +1,16 @@
+<resources>
+    <!-- Colores base -->
+    <color name="colorPrimary">#39FF14</color> <!-- Verde neón -->
+    <color name="colorPrimaryDark">#00CC66</color>
+    <color name="colorAccent">#00FF99</color>
+
+    <!-- Fondo y texto -->
+    <color name="colorBackground">#0A0A0A</color> <!-- Negro profundo -->
+    <color name="colorCard">#111111</color> <!-- Gris oscuro -->
+    <color name="colorTextPrimary">#FFFFFF</color> <!-- Blanco -->
+    <color name="colorTextSecondary">#BBBBBB</color> <!-- Gris claro -->
+
+    <!-- Extras -->
+    <color name="colorError">#FF3333</color> <!-- Rojo alerta -->
+    <color name="colorSuccess">#39FF14</color> <!-- Verde de confirmación -->
+</resources>

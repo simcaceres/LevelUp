@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="6dp"
+    card_view:cardBackgroundColor="#111111"
+    card_view:strokeWidth="1dp"
+    card_view:strokeColor="#76FF03">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:gravity="center_horizontal">
+
+        <!-- Imagen del producto -->
+        <ImageView
+            android:id="@+id/imgProducto"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen del producto"
+            android:src="@drawable/ic_gamepad"
+            android:background="#1A1A1A"
+            android:padding="8dp"
+            android:layout_gravity="center" />
+
+        <!-- Nombre -->
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del producto"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#76FF03"
+            android:layout_marginTop="8dp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción del producto"
+            android:textSize="13sp"
+            android:textColor="#BBBBBB"
+            android:layout_marginTop="4dp"
+            android:gravity="center" />
+
+        <!-- Precio -->
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$00.000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:layout_marginTop="6dp" />
+
+        <!-- Botón Agregar -->
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Añadir al carrito 🛒"
+            android:backgroundTint="#76FF03"
+            android:textColor="#0A0A0A"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
